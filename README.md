@@ -1,4 +1,4 @@
-![Glucose Grand Prix](images/header.png)
+![Glucose Grand Prix](images/Glucose-grand-prix.png)
 # Glucose Grand Prix  
 *Visualise your daily blood sugar as a Formula 1 race.*
 
