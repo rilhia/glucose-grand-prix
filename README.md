@@ -10,14 +10,19 @@ Author: Richard Hall
 
 ## 📖 Introduction
 
-**Glucose Grand Prix** is a fun, interactive project that turns your blood glucose data into something more exciting: a race car tearing around a virtual Formula 1 track.
+**Glucose Grand Prix** is a quirky project I put together after finding a neat way to extract my blood sugar data from [Glooko](https://glooko.com/). I wanted to create my own charts, but the data downloads only allowed 90 days at a time and came as multiple CSV files bundled in a ZIP. It was not exactly user-friendly.
 
-This idea came from a desire to make health data not just informative, but *engaging*. As a long-term type 1 diabetic, I know how easy it is for daily glucose stats to feel abstract or repetitive. But what if you could see your day as a race — one where consistency, control, and timing matter?
+With a bit of hacking around, I discovered how to use their session-authenticated browser APIs. That meant I could now grab all my data (or just a few hours’ worth) in JSON format using Chrome’s DevTools. Perfect.
 
-Each day’s data becomes a lap. Each data point becomes a step forward. And your glucose control becomes the determining factor in how smoothly your car makes it around the track. The better your day, the faster and cleaner the lap.
+At first, I thought it would be a great trick to share with other Glooko users. Then I remembered not everyone is quite as obsessed with data as I am. That thought completely sidetracked me. I started wondering what someone else might actually do with this data.
 
-This project is open, customizable, and built with clarity in mind. You can use your own data, plug in different tracks, and tinker with how performance is calculated.
+I’d recently seen stories about a diabetic Barbie and a diabetic Marvel superhero. Both were created for kids, which is a lovely idea. But not all kids relate to dolls or superheroes. There are loads of kids (and adults) who are really into F1.
 
+That’s when it hit me. What if I could use glucose data to “fuel” Formula 1 cars? Just like that, the idea of Glucose Grand Prix was born. A webpage that turns your blood sugar readings into something a bit different. A race car tearing around a virtual F1 track.
+
+Each day’s data becomes a lap. Each data point becomes a step forward. Your glucose control becomes the determining factor in how smoothly your car makes it around the track. The better your day, the faster and cleaner the lap.
+
+This project is a proof of concept. It'll be open to anyone who wants to try it or enhance it. 
 ---
 
 ## 🛠️ What this project does
