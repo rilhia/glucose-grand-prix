@@ -23,6 +23,7 @@ That’s when it hit me. What if I could use glucose data to “fuel” Formula 
 Each day’s data becomes a lap. Each data point becomes a step forward. Your glucose control becomes the determining factor in how smoothly your car makes it around the track. The better your day, the faster and cleaner the lap.
 
 This project is a proof of concept. It'll be open to anyone who wants to try it or enhance it. 
+
 ---
 
 ## 🛠️ What this project does
