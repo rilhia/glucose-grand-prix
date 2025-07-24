@@ -48,30 +48,26 @@ This is a browser-based web app (no install needed!) that:
 
 ## 🚀 How to use this
 
-1. **Prepare your data**  
-   Your JSON file should follow the format exported by the CGM simulator or from your own tool — with arrays like `cgmLow`, `cgmNormal`, and `cgmHigh`, and each entry containing `timestamp`, `x` (epoch), and `y` (bg value).
+1. **Download and open the HTML file**
+   Download the [webpage](https://raw.githubusercontent.com/rilhia/glucose-grand-prix/main/glucose-grand-prix.html) and double click on it to open it in a browser.
+   
+2. **Prepare your data**  
+   Download your data from Glooko, paste it into a file, give the file a name with the suffix ".json", then click "Load JSON" to load it.
 
-2. **Open the web app**  
-   You can host it yourself from GitHub Pages, or just open the HTML file in your browser.
-
-3. **Load your file**  
-   Click the **Load JSON** button, select your file, and wait a second or two for parsing.
-
-4. **Pick a track**  
+3. **Pick a track**  
    Choose from real F1 circuits like Silverstone, Yas Marina, or Monza.
 
-5. **Start the race**  
+4. **Start the race**  
    Press **Start Race** and watch your data come to life!
 
 ---
 
 ## 🎯 Customisation Ideas
 
-- Add your own circuits (just import GeoJSON files with line data)  
-- Change how performance is calculated (edit `getPerformance()`)  
-- Use it for competitions — who had the best lap today?  
-- Animate multiple users  
-- Show month-over-month comparison laps  
+- Add a multi-user "competitive" feature and compete with diabetic friends 
+- Change how performance is calculated (edit `getPerformance()`)    
+- Show month-over-month comparison laps
+- Get Glooko to include features like this into their website 
 
 ---
 
