@@ -49,7 +49,7 @@ This is a browser-based web app (no install needed!) that:
 ## 🚀 How to use this
 
 1. **Download and open the HTML file**
-   Download the [webpage](https://raw.githubusercontent.com/rilhia/glucose-grand-prix/main/glucose-grand-prix.html) and double click on it to open it in a browser.
+   Download the [webpage](https://raw.githubusercontent.com/rilhia/glucose-grand-prix/main/glucose-grand-prix.html) or [run it](https://rilhia.github.io/glucose-grand-prix/) from GitHub and double click on it to open it in a browser.
    
 2. **Prepare your data**  
    Download your data from Glooko, paste it into a file, give the file a name with the suffix ".json", then click "Load JSON" to load it.
@@ -74,14 +74,6 @@ This is a browser-based web app (no install needed!) that:
 ## 📝 License
 
 This project is licensed under the MIT License. You can use, modify, and distribute it freely as long as attribution is preserved.
-
----
-
-## 🧪 Demo and Screenshots
-
-Demo coming soon.
-
-You can also preview it live at: *(GitHub Pages link, if deployed)*
 
 ---
 
