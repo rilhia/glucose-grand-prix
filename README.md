@@ -34,8 +34,10 @@ This is a browser-based web app (no install needed!) that:
 - Animates multiple days as racing laps around a real F1 circuit  
 - Maps glucose control to car speed, using Gaussian scoring  
 - Shows leaderboard-style stats like time-in-range, high/low/mid, and deviation  
-- Lets you choose which drivers (days) to include  
+- Lets you choose which F1 drivers to include  
 - Includes multiple tracks with real F1 circuit data
+- The result of the race reveals your best days with regard to control
+- You can download the details of your best days
 
 **What it doesn't do:**
 
