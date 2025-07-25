@@ -46,10 +46,10 @@ This is a browser-based web app (no install needed!) that:
 
 ---
 
-# 📤 How to Extract Your Glooko Data via Chrome DevTools
+## 📤 How to Extract Your Glooko Data via Chrome DevTools
 
 This guide shows how to extract your own Glooko data using the browser's built-in developer tools.  
-No scripts. No extensions. Just you, Chrome, and a little patience.
+No scripts. No extensions. Just you, Chrome, and a little patience. Once you have followed this step, you can use the data you have collected to run the **Glucose Grand Prix**.
 
 > ⚠️ **Note:** This method uses the same session your browser is already logged into.  
 > It is secure and personal. The data is never shared unless *you* choose to download or use it elsewhere.
