@@ -59,31 +59,32 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
 ## 🧭 Step-by-Step Instructions
 
 1. **Open [Glooko](https://my.glooko.com/)** and log in as usual. You should land on the **Summary** page.  
-   ![Step 1](images/step1.png)
+   ![Step 1](images/Glooko_1.png)
 
 2. Click on the **Graphs** tab to load your glucose history.  
-   ![Step 2](images/step2.png)
+   ![Step 2](images/Glooko_2.png)
 
 3. **Open DevTools**:  
    - Right-click anywhere on the page and select **Inspect**,  
    - or press `Cmd + Option + I` (Mac) / `Ctrl + Shift + I` (Windows).
+   ![Step 3](images/Glooko_3.png)
 
 4. In the DevTools panel, click the **Network** tab.  
-   ![Step 4](images/step4.png)
+   ![Step 4](images/Glooko_4.png)
 
 5. **Reload the page** (`Cmd + R` or `F5`) to capture the network traffic.  
-   ![Step 5](images/step5.png)
+   ![Step 5](images/Glooko_5.png)
 
 6. In the **filter/search bar**, type `/data?patients=`  
    This narrows the requests down to the one you want.  
-   ![Step 6](images/step6.png)
+   ![Step 6](images/Glooko_6.png)
 
 7. You'll see **two results**. Click on each one and inspect the **Response** tab.  
    The one that contains **JSON data** is the one you want.  
-   ![Step 7](images/step7.png)
+   ![Step 7](images/Glooko_7.png)
 
 8. Go to the **Headers** tab of that request and copy the **Request URL**.  
-   ![Step 8](images/step8.png)
+   ![Step 8](images/Glooko_8.png)
 
 9. Paste the URL into a **text editor**. It’s long, so this will help you edit it cleanly.  
    Look for a section like this:  
@@ -91,23 +92,28 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
 ```
 startDate=2025-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
 ```
+   ![Step 9](images/Glooko_9.png)
 
 10. Modify the **`startDate`** and **`endDate`** to match the time range you want.  
- For example, changing from 2025 to 2023 allows you to pull older data:  
+ For example, changing from 2025 to 2023 allows you to pull older data:
+  
  ```
  startDate=2023-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
  ```
+   ![Step 10](images/Glooko_10.png)
 
 11. Now, paste the edited URL into your **browser’s address bar**, in a tab where you're still logged into Glooko.  
  Hit enter.
+   
 
-12. **Wait a moment.** If you're requesting a lot of data (like 2 years), it may take some time.  
+13. **Wait a moment.** If you're requesting a lot of data (like 2 years), it may take some time.  
  When it loads, you’ll see a screen filled with **raw JSON text**.
 
-13. Select all the text (`Cmd + A`, then `Cmd + C`) and paste it into your text editor.
-
-14. Save the file with a `.json` extension (e.g. `glooko_data.json`).
-
+14. Select all the text (`Cmd + A`, then `Cmd + C`) and paste it into your text editor.
+   ![Step 14](images/Glooko_11.png)
+15. Save the file with a `.json` extension (e.g. `glooko_data.json`).
+   ![Step 15](images/Glooko_12.png)
+   
 ---
 
 🎉 **Done!** You’ve now extracted your data. This file can now be used in your own visualisations, backups, or with projects like **Glucose Grand Prix**.
