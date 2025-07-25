@@ -80,7 +80,7 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
    ![Step 6](images/Glooko_5.png)
    
 
-7. You'll see **two results**. Click on each one and inspect the **Response** tab.  
+7. You'll see **one, two, possibly many results**. Click on each one and inspect the **Response** tab.  
    The one that contains **JSON data** is the one you want.  
    ![Step 7](images/Glooko_6.png)
    
