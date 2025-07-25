@@ -98,7 +98,7 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
    ![Step 9](images/Glooko_8.png)
 
 10. Modify the **`startDate`** and **`endDate`** to match the time range you want.  
- For example, changing from 2025 to 2023 allows you to pull older data:
+    For example, changing from 2025 to 2023 allows you to pull older data:
      
     ```
     startDate=2023-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
@@ -106,12 +106,12 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
    ![Step 10](images/Glooko_9.png)
 
 11. Now, paste the edited URL into your **browser’s address bar**, in a tab where you're still logged into Glooko.  
- Hit enter.
+    Hit enter.
    ![Step 11](images/Glooko_10.png)
    
 
 12. **Wait a moment.** If you're requesting a lot of data (like 2 years), it may take some time.  
- When it loads, you’ll see a screen filled with **raw JSON text**.
+    When it loads, you’ll see a screen filled with **raw JSON text**.
 
 13. Select all the text (`Cmd + A`, then `Cmd + C`) and paste it into your text editor.
    ![Step 14](images/Glooko_11.png)
