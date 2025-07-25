@@ -92,18 +92,18 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
 9. Paste the URL into a **text editor**. It’s long, so this will help you edit it cleanly.  
    Look for a section like this:  
 
-```
-startDate=2025-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
-```
+   ```
+   startDate=2025-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
+   ```
    
    ![Step 9](images/Glooko_8.png)
 
 10. Modify the **`startDate`** and **`endDate`** to match the time range you want.  
  For example, changing from 2025 to 2023 allows you to pull older data:
-  
- ```
- startDate=2023-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
- ```
+     
+    ```
+    startDate=2023-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
+    ```
    
    ![Step 10](images/Glooko_9.png)
 
