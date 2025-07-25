@@ -73,15 +73,17 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
    ![Step 4](images/Glooko_4.png)
 
 5. **Reload the page** (`Cmd + R` or `F5`) to capture the network traffic.  
-   ![Step 5](images/Glooko_5.png)
+   
 
 6. In the **filter/search bar**, type `/data?patients=`  
    This narrows the requests down to the one you want.  
-   ![Step 6](images/Glooko_6.png)
+   ![Step 6](images/Glooko_5.png)
+   
 
 7. You'll see **two results**. Click on each one and inspect the **Response** tab.  
    The one that contains **JSON data** is the one you want.  
-   ![Step 7](images/Glooko_7.png)
+   ![Step 7](images/Glooko_6.png)
+   
 
 8. Go to the **Headers** tab of that request and copy the **Request URL**.  
    ![Step 8](images/Glooko_8.png)
