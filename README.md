@@ -124,18 +124,19 @@ No scripts. No extensions. Just you, Chrome, and a little patience. Once you hav
 
 ---
 
-## 🚀 How to use this
+## 🚀 How to run Glucose Grand Prix
 
-1. **Download and open the HTML file**
+1. **Download and/or open the HTML file**
    Download the [webpage](https://raw.githubusercontent.com/rilhia/glucose-grand-prix/main/glucose-grand-prix.html) or [run it](https://rilhia.github.io/glucose-grand-prix/) from GitHub and double click on it to open it in a browser.
    
-2. **Prepare your data**  
+   
+3. **Prepare your data**  
    Download your data from Glooko, paste it into a file, give the file a name with the suffix ".json", then click "Load JSON" to load it.
 
-3. **Pick a track**  
+4. **Pick a track**  
    Choose from real F1 circuits like Silverstone, Yas Marina, or Monza.
 
-4. **Start the race**  
+5. **Start the race**  
    Press **Start Race** and watch your data come to life!
 
 ---
