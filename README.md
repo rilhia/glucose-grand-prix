@@ -98,7 +98,7 @@ No scripts. No extensions. Just you, Chrome, and a little patience.
    ![Step 9](images/Glooko_8.png)
 
 10. Modify the **`startDate`** and **`endDate`** to match the time range you want.  
-    For example, changing from 2025 to 2023 allows you to pull older data:
+    For example, changing the **`startDate`** year from 2025 to 2023 allows us to pull an extra two years' worth of data:
      
     ```
     startDate=2023-07-07T00:00:00.000Z&endDate=2025-07-20T23:59:59.999Z
