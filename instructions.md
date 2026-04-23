@@ -131,34 +131,35 @@ No scripts. No extensions. Just you, Chrome, and a little patience. Once you hav
    ![Step 1](images/GlucodeGrandPrix_1.png)
    
 2. **Prepare your data**  
-   Download your data from Glooko, paste it into a file, give the file a name with the suffix ".json", then click "Load JSON" to load it. Instructions shown [here](## 🧭 Step-by-Step Instructions)
+   Download your data from Glooko, paste the data into a file, give the file a name with the suffix ".json", then click "Load JSON" to load it. Instructions shown [here](#-step-by-step-instructions).
+   Or you can try this out using some of my data I have uploaded here in a file called glucose.json. 
    ![Step 2](images/GlucodeGrandPrix_2.png)
 
-3. **Select your drivers**
+4. **Select your drivers**
    Select the drivers you wish to include in this race using the checkbox selection panel.
    ![Step 3](images/GlucodeGrandPrix_3.png)
 
-4. **Select the track**
+5. **Select the track**
    Select the track you wish to race on. Click on the dropdown, make your selection and you'll see the track appear in the map.
    ![Step 4](images/GlucodeGrandPrix_4.png)
 
-5. **Start the race**
+6. **Start the race**
    Click on the **Start Race** button.
    ![Step 5](images/GlucodeGrandPrix_5.png)
 
-6. **Speed up or slow down the race pace**
+7. **Speed up or slow down the race pace**
    Use the **Speed Slider** to increase or decrease the time. These races have been set up to similate the fastest lap times as closely as possible for a small web app, so you may want to speed things up a bit.
    ![Step 6](images/GlucodeGrandPrix_6.png)
 
-7. **The leaderboard**
+8. **The leaderboard**
    This shows the driver positions, the lap numbers, the '**glucose day**' that the lap corresponds to, the computed '**power**' for that moment and the actual '**glucose**' reading that the power was calculated from.
    ![Step 7](images/GlucodeGrandPrix_7.png)
 
-8. **The fastest laps table**
+9. **The fastest laps table**
    This table shows the top 10 fastest laps for the race. It is constantly updated throughout the race.
    ![Step 8](images/GlucodeGrandPrix_8.png)
 
-9. **Fastest lap details**  
+10. **Fastest lap details**  
    You can drill into the detail of any '**fastest lap**' by clicking on the '**View JSON**' link...
    ![Step 9a](images/GlucodeGrandPrix_9.png)
    ...and seeing this detail in JSON format appear in a popup. This data can be downloaded.
