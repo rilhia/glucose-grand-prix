@@ -131,7 +131,7 @@ No scripts. No extensions. Just you, Chrome, and a little patience. Once you hav
    ![Step 1](images/GlucodeGrandPrix_1.png)
    
 2. **Prepare your data**  
-   Download your data from Glooko, paste the data into a file, give the file a name with the suffix ".json", then click "Load JSON" to load it. Or you can try this out using some of my data I have uploaded here in a file called glucose.json. Instructions shown [here](## 🧭 Step-by-Step Instructions).
+   Download your data from Glooko, paste the data into a file, give the file a name with the suffix ".json", then click "Load JSON" to load it. Or you can try this out using some of my data I have uploaded here in a file called glucose.json. Instructions shown [here](#-step-by-step-instructions).
    ![Step 2](images/GlucodeGrandPrix_2.png)
 
 3. **Select your drivers**
